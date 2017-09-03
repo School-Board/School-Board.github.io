@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<!--Samuel Anozie, March 1, 2017. This is my div excersise for CSI, but it is also doubling as my SoCent project and my CSI quarter project. This website is not completely done, as there are multiple pages still left to add, but it meets the requirements for the CSI project as it is.-->
+<!--URL = "students.imsa.edu/~sanozie"-->
+<head>
+<meta charset = "UTF-8">
+<link rel = "stylesheet" type = "text/css" href = "styles.css"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+<title>SchoolBoard</title>
+<link rel = "icon" href = "favicon.jpg" type = "image/jpg"/>
+<style type = "text/css">
+html {
+	height: 100%;
+}
+body {
+	background-size: cover;
+	text-align: center;
+	background-position: fixed;
+	height: 100%;
+}
+div.headbar {
+	width: 100%;
+	height: 0%;
+	animation-name: list;
+	animation-duration: 3s;
+	-webkit-animation-name: list; /* Safari/Chrome */
+	-webkit-animation-duration: 3s; /* Safari/Chrome */
+}
+/*This is CSS3 code that makes it so that the header, images, and navigation bar all fade in*/
+div.heading {
+	border: 1px solid white;
+	margin: 11% 10% 5% 10%;
+	height: 30%;
+	opacity: 1.0;
+	animation-name: list;
+	animation-duration: 3s;
+	-webkit-animation-name: list; /* Safari/Chrome */
+	-webkit-animation-duration: 3s; /* Safari/Chrome */
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+img.left_image {
+	float: left;
+	opacity: 1.0;
+	animation-name: list;
+	animation-duration: 3s;
+	width: 4%;
+	height: 4%;
+	margin-left: 25%;
+	margin-top: 2%;
+	box-sizing: border-box;
+
+}
+img.right_image {
+	float: right;
+	opacity: 1.0;
+	animation-name: list;
+	animation-duration: 3s;
+	width: 4%;
+	height: 4%;
+	margin-right: 25%;
+	margin-top: 2%;
+	box-sizing: border-box;
+}
+li {
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	color: white;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1.4%;
+	padding-bottom: 1.4%;
+	opacity: 1.0;
+	animation-name: list;
+	animation-duration: 3s;
+	-webkit-animation-name: list; /* Safari/Chrome */
+	-webkit-animation-duration: 3s; /* Safari/Chrome */
+}
+img.center {
+	opacity: 1.0;
+	animation-name: list;
+	animation-duration: 3s;
+	width: 30%;
+	animation-name: list;
+	animation-duration: 3s;
+	-webkit-animation-name: list; /* Safari/Chrome */
+	-webkit-animation-duration: 3s; /* Safari/Chrome */
+}
+/*I got the 'Cinzel Decorative' font from Google Fonts. In fact, I got all of my fonts from there.*/
+h1 {
+	padding: 20px;
+	color: white;
+	font-size: 40px;
+	opacity: 1.0;
+	font-family: 'Cinzel Decorative', cursive;
+	animation-name: list;
+	animation-duration: 3s;
+	-webkit-animation-name: list; /* Safari/Chrome */
+	-webkit-animation-duration: 3s; /* Safari/Chrome */
+}
+div.body {
+	height: 100%;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	opacity: 1.0;
+	animation-name: list;
+	animation-duration: 3s;
+	-webkit-animation-name: list; /* Safari/Chrome */
+	-webkit-animation-duration: 3s; /* Safari/Chrome */
+}
+.disclamer {
+	color: gray;
+	position: absolute;
+	bottom: 10px;
+	font-size: 12pt;
+}
+/*This is the div that contains the header and all of the descriptions of the fields of study that I put on this webpage*/
+#jpg{
+	overflow: auto;
+	background-image: url('backpic.jpg');
+	background-size: 100% 100%;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	height: 86.8%;
+	margin-left: -1%;
+	margin-right: -1%;
+}
+li:hover {
+	border-bottom: 1px solid white;
+}
+
+input {
+	width: 5%;
+	height: 3%;
+	color: black;
+	background-color: white;
+}
+div.login {
+	width: 10%;
+	height: 7%;
+	border: 1px solid white;
+	background-color: white;
+	margin-left: 45%;
+	margin-right: 45%;
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 20px;
+	margin-top: 3%;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	animation-name: list;
+	animation-duration: 3s;
+	animation-delay: 2s;
+	animation-fill-mode: backwards;
+	-webkit-animation-name: list; /* Safari/Chrome */
+	-webkit-animation-duration: 3s; /* Safari/Chrome */
+	-webkit-animation-delay: 2s; /* Safari/Chrome */
+	animation-fill-mode: backwards; /* Safari/Chrome */
+}
+@keyframes list {
+	from {opacity: 0.0;}
+	to {opacity: 1.0;}
+}
+@-webkit-keyframes list {
+	from {opacity: 0.0;}
+	to {opacity: 1.0;}
+}
+
+</style>
+</head>
+<body>
+<!--Link came from Google Fonts-->
+<link href = "https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet"> 
+<script src ="script.js"></script>
+<div class = "body">
+<img id = "pic" class = "right_image" src = "flower.png" alt = "flower"/>
+<img class = "center" src = "Picture1.png" alt = "header"/>
+<img id = "pic" class = "left_image" src = "flower.png" alt = "flower"/>
+	<div class = "headbar">
+<!--I have yet to finish the Schools and About Us page, but I will work on this over Spring Break-->
+		<ul>
+			<li>Schools</li>
+			<li>About Us</li>
+			<li><a (href = "SchoolBoardSamplePage.html")>Sample</a></li>
+			<li><a (href = "SchoolBoardContactPage.html")>Contact</a></li>
+			<li><a (href = "SchoolBoardRequestPage.html")>Request</a></li>
+		</ul>
+	</div>
+<!--I put overflow: auto on this div because there's just too much content! However, it worked out pretty well in the end. I originally wanted to put the pictures and descriptions side by side but then I realized that putting them in a line looked better.  I might change this just to see how it looks, and I had some ideas for animations concerning the pictures in the future.-->
+	<div id="jpg">
+	<div class = "heading"><h1>The Future of Inquiry</h1></div>
+	<div class = "statement">
+		<p>Our mission is simple: create a learning environment in which instinct and impulsiveness is never limited.</p>
+	</div>
+	<div class = "login">
+		<a href = "SchoolBoardLogInPage.html" style = "color: black">Log In</a>
+	</div>
+</div>
+</body>
+</html>

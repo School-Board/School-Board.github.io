@@ -1,0 +1,27 @@
+styles.css
+/*Samuel Anozie, March 2017. Styles for SchoolBoard*/
+
+
+h1 {
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+}
+h2 {
+	padding: 20px;
+	color: white;
+	font-size: 50px;
+	font-family: 'Cinzel Decorative', cursive;
+}
+body {
+	background-size: cover;
+	background-position: fixed;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 30px;
+}
